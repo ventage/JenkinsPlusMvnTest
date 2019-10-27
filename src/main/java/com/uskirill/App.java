@@ -6,8 +6,11 @@ package com.uskirill;
  */
 public class App 
 {
+    private void print(String text){
+            System.out.println(text);
+    }
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        print( "Hello World!" );
     }
 }
